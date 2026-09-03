@@ -1,0 +1,33 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe build project",
+            "command": "C:\\Users\\nonel\\Downloads\\ucrt64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${workspaceFolder}\\src\\main.cpp",
+                "${workspaceFolder}\\src\\Booking.cpp",
+                "${workspaceFolder}\\src\\Flight.cpp",
+                "${workspaceFolder}\\src\\Passenger.cpp",
+                "${workspaceFolder}\\src\\ReservationSystem.cpp",
+                "-I${workspaceFolder}\\include",
+                "-o",
+                "${workspaceFolder}\\airlineSystem.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Builds the entire Airline Reservation System project (all .cpp files)."
+        }
+    ],
+    "version": "2.0.0"
+}
